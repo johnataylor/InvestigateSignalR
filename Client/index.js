@@ -1,7 +1,11 @@
 
 //import { signalR } from "@microsoft/signalr";
+//const signalR = require("@microsoft/signalr");
 
-const signalR = require("@microsoft/signalr");
+//import pkg from '@microsoft/signalr';
+//const { signalR } = pkg;
+
+import * as  signalR from '@microsoft/signalr';
 
 const connection = new signalR.HubConnectionBuilder()
     .withUrl("http://localhost:5041/reminderhub")
